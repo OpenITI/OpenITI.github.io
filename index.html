@@ -56,7 +56,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#implementation">Implementation</a>
+                        <a class="page-scroll" href="#development">Development Plan</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -105,8 +105,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About OpenITI</h2>
-                <p>The written heritage of the “Islamicate” cultures that stretch from modern Bengal to Spain is as vast as it is understudied and underrepresented in the digital humanities. The sheer volume and diversity of the surviving works produced in Persian and Arabic by denizens of these lands in the premodern period makes this body of texts ideal for computational forms of analysis. Efforts to utilize these new digital forms of analysis, however, have been stymied by the lack of a reliable corpus.</p>
-                <p>The Open Islamicate Texts Initiative (OpenITI) is a multi-institutional effort to construct the first machine-actionable scholarly corpus of premodern Islamicate texts. Led by researchers at the Aga Khan University (AKU), Universität Leipzig (UL), and the Roshan Institute for Persian Studies at the University of Maryland (College Park) and an interdisciplinary advisory board of leading digital humanists and Islamic, Persian, and Arabic studies scholars, OpenITI aims to provide the essential textual infrastructure in Persian and Arabic for new forms of macro textual analysis and digital scholarship. In the process, OpenITI will enable new synergies between Digital Humanities and the inter-related Islamicate fields of Islamic, Persian, and Arabic Studies.</p>
+                <p>The written heritage of the “Islamicate” cultures that stretch from modern Bengal to Spain is as vast as it is understudied and underrepresented in the digital humanities. The sheer volume and diversity of the surviving works produced in Persian and Arabic by denizens of these lands in the premodern period makes this body of texts ideal for computational forms of analysis. Efforts to utilize these new digital forms of analysis, however, have been stymied by  poor OCR technology for Arabic-script languages and the lack of a open-access, standards-compliant Islamicate corpus.</p>
+                <p>The Open Islamicate Texts Initiative (OpenITI) is a multi-institutional effort to construct the first machine-actionable scholarly corpus of premodern Islamicate texts. Led by researchers at the Aga Khan University (AKU), Universität Wien (UW), and the Roshan Institute for Persian Studies at the University of Maryland (College Park) and an interdisciplinary advisory board of leading digital humanists and Islamic, Persian, and Arabic studies scholars, OpenITI aims to develop the digital infrastructure necessary to achieve this goal, including improved Arabic-script OCR, Arabic-script standards for OCR output and text encoding, and platforms for collaborative corpus creation (e.g., CorpusBuilder). In the process, OpenITI will enable new synergies between Digital Humanities and the inter-related Islamicate fields of Islamic, Persian, and Arabic Studies.</p>
                 <!-- Logos for partner universities -->
                 <div id="logos">
                     <img alt="PersDig@UMD" class="logo" src="img/umd.png" style="height:200px;">
@@ -117,19 +117,20 @@
         </div>
     </section>
 
-    <!-- Implementation Section -->
-    <section id="implementation" class="content-section text-center">
-        <div class="implementation-section">
+    <!-- Development Plan Section -->
+    <section id="development" class="content-section text-center">
+        <div class="development-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>OpenITI Implementation Plan</h2>
-                    <p>After completing pilot Persian and Arabic corpus projects over the course of 2015 (i.e., <a href="http://kitab-project.org/">The KITAB (Knowledge, Information, and The Arabic Book)</a> and <a href="https://persdigumd.github.io/PDL/">Persian Digital Library (PDL)</a> projects), OpenITI team members began drafting an implementation plan that would bring together these efforts in one united Islamicate textual corpus that would contain approximately 10,000 Islamicate texts (ca. 7,000 Arabic and 3,000 Persian texts). In this stage, we will (1) review and format existing open-access premodern Persian and Arabic text according to the CapiTainS canonical text services (CTS) standards; (2) enrich these texts with as much verified metadata as possible (using our data schema developed in the pilot stage); and (3) develop and execute a plan to achieve greater parity in the number, genre, and chronological coverage of both Persian and Arabic texts in the OpenITI corpus after reviewing results of first phase of the work plan.</p>
+                    <h2>OpenITI Development Plan</h2>
+                    <p>Since its founding in 2016, OpenITI's work has focused on two primary areas: (1) improvement of Arabic-script OCR, and (2) corpus building. Our work on OCR—done in collaboration with Benjamin Kiessling of Universität Leipzig—has produced some of the most accurate results to date on Arabic-script texts (see full results <a href="http://islamichistorycommons.org/mem/wp-content/uploads/sites/55/2017/11/UW-25-Savant-et-al.pdf">here</a>). Most importantly, these results were achieved on a open-source OCR engine (<a href="https://github.com/mittagessen/kraken">Kraken</a>) which is retrainable and can be adapted for highly specific scholarly needs. Beginning in 2017 OpenITI also began collaborating with the <a href="https://ilsp.law.harvard.edu/shariasource/">SHARIAsource</a> project of Harvard Law School on the creation of a digital text production pipelane, called CorpusBuilder. Currently scheduled for beta release in January 2019, CorpusBuilder is a user-friendly, web-based, open-source application that allows users to upload, OCR, post-correct, annotate, and structurally tag a document. It includes robust version control (built on the git model) and an API as well—both critically important features that will help facilitate the collaboratively model of corpus production that OpenITI champions.</p>
+                    <p>OpenITI's second focus flows out of our OCR work (literally): our ultimate goal is the creation of a machine-actionable and standards-compliant scholarly corpus of Persian and Arabic texts. (We sincerely hope to expand to Ottoman Turkish and Urdu texts in the near future too, as soon as funding permits.) After completing experiment Persian and Arabic corpus development projects over the course of 2015 (i.e., the <a href="https://github.com/OpenArabic">OpenArabic</a>, <a href="http://kitab-project.org/">KITAB (Knowledge, Information, and The Arabic Book)</a>, and <a href="https://persdigumd.github.io/PDL/">Persian Digital Library (PDL)</a> projects), OpenITI team members drafted a development plan that would bring together these efforts in one united Islamicate textual corpus that would contain approximately 10,000 Islamicate texts (ca. 7,000 Arabic and 3,000 Persian texts). This plan calls for us to: (1) review and format existing open-access premodern Persian and Arabic text according to the CapiTainS canonical text services (CTS) and TEI-XML standards; (2) enrich these texts with as much verified metadata as possible; and (3) develop and execute a plan to achieve greater parity in the number, genre, and chronological coverage of both Persian and Arabic texts in the OpenITI corpus after reviewing results of the first phase of this plan. (This need to make the existing collection of digital Persian and Arabic texts more representative of these traditions as a whole is the impetus for our work on Arabic-script OCR.)</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ITI team Section -->
+    <!-- Open ITI team Section -->
     <section id="team" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
